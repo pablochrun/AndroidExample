@@ -33,6 +33,7 @@
         android:text="@string/button_send"
         android:onClick="sendMessage"
         android:textSize="50dp"
+        android:drawableLeft="@drawable/ball"
         />
 
 </LinearLayout>
