@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">AndroidExamples</string>
+    <string name="title_message">Hola Android</string>
+    <string name="edit_message">Escribe tu mensaje aquí</string>
+    <string name="button_send">Enviar Mensaje</string>
+</resources>
