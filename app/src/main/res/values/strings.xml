@@ -3,4 +3,8 @@
     <string name="title_message">Hello Android!</string>
     <string name="edit_message">Write your message here</string>
     <string name="button_send">Send message</string>
+
+
+    <string name="hello_headline_fragment">Hello Headline fragment</string>
+    <string name="hello_article_fragment">Hello Article fragment</string>
 </resources>

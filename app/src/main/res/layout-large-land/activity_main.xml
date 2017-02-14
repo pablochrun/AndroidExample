@@ -11,29 +11,20 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.pablocovarrubias.androidexamples.MainActivity">
 
-    <!--
-    <TextView
-        android:id="@+id/main_textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/title_message" />
-    -->
-
-    <EditText android:id="@+id/edit_message"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:hint="@string/edit_message"
+    <fragment
+        android:name="com.example.pablocovarrubias.androidexamples.HeadlineFragment"
+        android:id="@+id/headlines_fragment"
         android:layout_weight="1"
-        />
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        tools:layout="@layout/fragment_headline" />
 
-    <Button
-        android:id="@+id/button_mainActivity"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/button_send"
-        android:onClick="sendMessage"
-        android:textSize="50dp"
-        android:drawableLeft="@drawable/ball"
-        />
+    <fragment
+        android:name="com.example.pablocovarrubias.androidexamples.ArticleFragment"
+        android:id="@+id/article_fragment"
+        android:layout_weight="2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        tools:layout="@layout/fragment_article" />
 
 </LinearLayout>
